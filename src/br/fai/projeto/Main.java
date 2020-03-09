@@ -13,7 +13,13 @@ public class Main {
 	private void start() {
 		// TODO Auto-generated method stub
 		
-		System.out.println("oi");
+		String[] carros = {"civic","gol","palio","uno"};
+		
+		for (String carro : carros) {
+			System.out.println("Carro: " + carro);
+		}
+		
+		System.out.println("----------");
 		
 	}
 
